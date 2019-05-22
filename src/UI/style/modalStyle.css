@@ -1,0 +1,456 @@
+.slider-list {
+  margin-left: 5px;
+}
+.modal--border-date {
+  border: 1px solid #a0a0a0;
+  width: 65px;
+  max-width: 80px;
+  float: left;
+  text-align: center;
+  padding: 7px 5px;
+  border-radius: 7px;
+}
+
+.modal--border-date-right {
+  border: 1px solid #a0a0a0;
+  width: 65px;
+  max-width: 80px;
+  float: right;
+  text-align: center;
+  padding: 7px 5px;
+  border-radius: 7px;
+}
+
+.modal--date-style {
+  font-weight: bold;
+  color: #a0a0a0;
+  font-size: 26px;
+}
+
+.modal--row-progress .ant-progress-bg {
+  height: 15px !important;
+}
+
+.modal--row-progress .ant-progress-inner {
+  border: 1px solid #a0a0a0;
+  background-color: #ffffff;
+  margin-top: 16px;
+}
+
+.modal--block-element {
+  display: block;
+}
+
+.modal--col-breadcrumb {
+  margin: 20px 0px;
+}
+
+.modal--media {
+  /* background-color: #9c9b9b; */
+  border-radius: 5px;
+  /* position: relative; */
+}
+
+.modal--media-icon-bell {
+  /* position: absolute;
+  margin-top: 15px;
+  right: 20px; */
+}
+
+.modal--link-editar,
+.modal--link-excluir,
+.modal--link-editar:hover,
+.modal--link-excluir:hover {
+  color: #a0a0a0;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.modal--media-icon-actions {
+  list-style: none;
+  margin-inline-start: 0px;
+  padding-inline-start: 0px;
+}
+
+.modal--media-icon-actions-list {
+  display: inline;
+}
+
+.modal--media-icon-actions-ancor {
+  color: #9c9b9b;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-media--card-video {
+  /* background-color: #9c9b9b; */
+  /* height: 190px; */
+  border: none;
+  border-radius: 9px;
+}
+
+.modal-media--card-link {
+  height: 300px;
+  border: none;
+}
+
+.selected {
+  color: #009900;
+}
+
+.slider-control-centerleft button {
+  background-color: transparent;
+  border: none;
+}
+
+.slider-control-centerright button {
+  background-color: transparent;
+  border: none;
+}
+
+.slider {
+  height: 400px !important;
+  border: 1px solid black;
+  background-color: #000;
+}
+.arrow {
+  position: relative;
+  color: #333;
+  font-family: Arial sans-serif;
+  font-size: 2em;
+  text-decoration: none;
+  padding: 0.5em 1.5em;
+}
+.arrow.left:before {
+  top: 0.89em !important;
+}
+.arrow:before,
+.arrow:after {
+  content: "";
+  background: #fff;
+  -webkit-border-radius: 0.2em;
+  border-radius: 0.2em;
+  display: block;
+  height: 0.2em;
+  position: absolute;
+  right: 0;
+  width: 1.4em;
+}
+
+.arrow.left:before,
+.arrow.left:after {
+  left: 0;
+}
+
+.arrow.left:before {
+  top: 1em;
+}
+
+.arrow.left:after,
+.arrow.left:before,
+.arrow.right:before {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.arrow.right:before,
+.arrow.left:after {
+  top: 0em;
+}
+
+.arrow.left:after,
+.arrow.right:after {
+  bottom: 1.1em;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.arrow:hover,
+#arrow:focus {
+  color: #c00;
+}
+
+.thumnail .ant-card-body {
+  padding: 0px;
+  border: none;
+}
+
+.container-input-date {
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.container-input-date input {
+  float: left;
+  width: 100%;
+  border: none;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.container-input-hours {
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.container-input-hours input {
+  float: left;
+  width: 100%;
+  border: none;
+  top: 30px;
+  left: -5px;
+  text-align: center;
+  position: relative;
+}
+
+.react-datepicker-ignore-onclickoutside {
+  float: left;
+  width: 100%;
+  border: none;
+  background: transparent;
+}
+
+input[type="text"] {
+  border: none;
+  background: transparent;
+}
+
+.ant-time-picker-icon {
+  display: none;
+}
+
+input[type="file"]#file-upload {
+  display: none;
+}
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  width: 160px;
+  height: 120px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.container-option-custom-color li {
+  display: inline;
+}
+
+.custom-color--roxo {
+  background-image: linear-gradient(
+    to right top,
+    #420fbd,
+    #8d26b9,
+    #bb49b8,
+    #dc71bb,
+    #f49ac5
+  );
+  position: relative;
+  border: 1px solid #ffffff;
+  padding: 5px 13px;
+  position: relative;
+  margin: 0 1%;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.custom-color--roxo > i.anticon {
+  position: absolute;
+  left: 6px !important;
+  font-size: 15px;
+  color: #fff;
+  top: 5px;
+}
+
+.custom-color--azul {
+  background-image: linear-gradient(
+    to right top,
+    #1e23a2,
+    #0067d2,
+    #009bdb,
+    #00cad4,
+    #9cf4d7
+  );
+  position: relative;
+  border: 1px solid #ffffff;
+  padding: 5px 13px;
+  position: relative;
+  margin: 0 1%;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.custom-color--azul > i.anticon {
+  position: absolute;
+  left: 6px !important;
+  font-size: 15px;
+  color: #fff;
+  top: 5px;
+}
+
+.custom-color--laranja {
+  background-image: linear-gradient(
+    to right top,
+    #f96200,
+    #ff8700,
+    #ffa900,
+    #ffcb00,
+    #feec00
+  );
+  position: relative;
+  border: 1px solid #ffffff;
+  padding: 5px 13px;
+  position: relative;
+  margin: 0 1%;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.custom-color--laranja > i.anticon {
+  position: absolute;
+  left: 6px !important;
+  font-size: 15px;
+  color: #fff;
+  top: 5px;
+}
+.custom-color--verde {
+  background-image: linear-gradient(
+    to right top,
+    #5da148,
+    #78b943,
+    #98d03a,
+    #bde72a,
+    #e7fd00
+  );
+  position: relative;
+  border: 1px solid #ffffff;
+  padding: 5px 13px;
+  position: relative;
+  margin: 0 1%;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.custom-color--verde > i.anticon {
+  position: absolute;
+  left: 6px !important;
+  font-size: 15px;
+  color: #fff;
+  top: 5px;
+}
+
+.icon-video-camera-selected {
+  background: url("../icons/ic_video_selected.png");
+  background-size: 30px 30px;
+  height: 30px;
+  width: 30px;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.icon-video-camera-unselected {
+  background: url("../icons/ic_video.png");
+  background-size: 30px 30px;
+  height: 30px;
+  width: 30px;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.icon-camera-selected {
+  background: url("../icons/ic_photo_selected.png");
+  background-size: 30px 30px;
+  height: 30px;
+  width: 30px;
+  float: left;
+  background-repeat: no-repeat;
+}
+.icon-camera-unselected {
+  background: url("../icons/ic_photo.png");
+  background-size: 30px 30px;
+  height: 30px;
+  width: 30px;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.icon-audio-selected {
+  background: url("../icons/ic_audio_selected.png");
+  background-size: 30px 30px;
+  height: 30px;
+  width: 30px;
+  float: left;
+  background-repeat: no-repeat;
+}
+.icon-audio-unselected {
+  background: url("../icons/ic_audio.png");
+  background-size: 30px 30px;
+  height: 30px;
+  width: 30px;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.icon-link-selected {
+  background: url("../icons/ic_link_selected.png");
+  background-size: 30px 30px;
+  height: 30px;
+  width: 30px;
+  float: left;
+  background-repeat: no-repeat;
+}
+.icon-link-unselected {
+  background: url("../icons/ic_link.png");
+  background-size: 30px 30px;
+  height: 30px;
+  width: 30px;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.icon-environment-selected {
+  background: url("../icons/ic_location_selected.png");
+  background-size: 30px 30px;
+  height: 30px;
+  width: 30px;
+  float: left;
+  background-repeat: no-repeat;
+}
+.icon-environment-unselected {
+  background: url("../icons/ic_location.png");
+  background-size: 30px 30px;
+  height: 30px;
+  width: 30px;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.col-of-modal {
+  position: relative;
+}
+
+.first-row-of-modal {
+  position: absolute;
+  width: 100%;
+}
+
+.second-row-of-modal {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.first-div-of-modal {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

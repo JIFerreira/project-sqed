@@ -1,0 +1,23 @@
+.colorBackgroundPattern {
+  background-color: #565655;
+}
+.putListInline {
+  display: inline-block;
+  margin: 0 10px;
+}
+.disablePatternStyle,
+.disablePatternStyle:hover {
+  color: #b4b4b4;
+  text-decoration: none;
+  list-style: none;
+  line-height: 34px;
+  padding-inline-start: 0px;
+}
+
+.size-icons {
+  font-size: 26px;
+  color: #fff;
+}
+.icon-app-store {
+  width: 151px;
+}
